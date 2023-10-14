@@ -28,6 +28,9 @@
                         <mxGeometry x="400" y="30" width="80" height="20" as="geometry"/>
                     </mxCell>
                 </UserObject>
+                <mxCell id="10" value="Top features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3b2121;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="310" width="130" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
