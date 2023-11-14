@@ -1,36 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400&family=Poppins:wght@100;300;400;700&display=swap");
 
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerWrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  background-color: aliceblue;
 }
 
-.navLinks {
+.navWrapper {
   color: #000000;
-  display: inline-flex;
   justify-content: space-between;
-  background-color: rgb(255, 255, 254);
   justify-items: center;
 }
 
-li {
+ul{
+  display: inline-flex;
+}
+
+.navWrapper li {
   text-decoration: none;
   margin-left: 20px;
   margin-top: 10px;
   list-style-type: none;
 }
-li:hover {
-  background-color: rgb(247, 248, 248);
+.navWrapper li:hover {
   color: blue;
 }
 
@@ -46,31 +41,35 @@ li:hover {
   color: rgb(23, 23, 83);
 }
 
+.logoWrapper {
+  height: fit-content;
+}
 .logo {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
+  font-size: 2.5rem;
+  font-weight: 1200;
   color: rgb(10, 20, 120);
-  background-color: #f8f8f8;
+  text-align: center;
+  height: fit-content;
 }
 .logo:hover {
   color: rgb(6, 19, 166);
 }
 
-nav {
-  display: flex;
-  background-color: #f8f8f8;
-  justify-items: center;
-  justify-content: space-around;
+.buttonWrapper {
+  height: fit-content;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .logInbtn {
-  color: rgb(255, 255, 255);
   font-size: 15px;
-  line-height: 15px;
   border-radius: 10px;
-  font-family: 'Lato', sans-serif;
+  border-style: none;
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
+  line-height: 15px;
   text-decoration: none;
   font-style: normal;
   font-variant: normal;
@@ -80,8 +79,6 @@ nav {
   text-decoration: none;
   font-size: large;
   color: black;
-  margin-left: 20px;
-  margin-top: 20px;
 }
 .logInbtn:hover {
   background: #dee3e5;
@@ -112,8 +109,6 @@ nav {
   box-shadow: rgba(0, 0, 0, 0) 5px 2px 15px 5px;
   border: 2px solid rgb(28, 110, 164);
   display: inline-block;
-  height: 30px;
-  margin-top: 20px;
 }
 .signupBtn:hover {
   background: #1c6ea4;
