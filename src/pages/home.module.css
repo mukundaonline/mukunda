@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400&family=Poppins:wght@100;300;400;700&display=swap');
+.homepageBackground {
+    background-image: url("../images/bgg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.motivationalQuoteWrapper {
+    position: relativ;
+    background-color: rgba(109, 109, 139, 0);
+    width: 70%;
+    z-index: 10;
+    display: flex;
+    height: 40%;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    top: 80%;
+}
+
+.mukundaMottoWrapper {
+    background-color: aqua;
+    width: 70%;
+    z-index: 9;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.motto {
+    color: black;
+    font-size: 1 rem;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    width: 100%;
+}
+
+.searchBarWrapper {
+    background-color: black;
+    width: 80%;
+    height: 7%;
+    display: ;
+}
+
+.jobtype {
+    height: 100%;
+    width: 30%;
+}
+.jobLocation {
+    height: 100%;
+    width: 30%;
+}
+.jobSearch {
+    height: 100%;
+    width: 10%;
+}
+
+.quote {
+ color: rgb(2, 69, 127);
+ font-size: 3rem;
+ font-family: 'Poppins', sans-serif;
+ font-weight: bolder;
+ height: 100%;
+ overflow: hidden;
+ /* white-space: nowrap; */
+ width: 0;
+ animation: typing;
+ animation-duration: 1.5s;
+ animation-timing-function: steps(30, end);
+ animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%;
+        text-align: left; }
+  }
