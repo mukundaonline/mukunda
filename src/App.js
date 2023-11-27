@@ -1,11 +1,11 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
-import Jobs from "./pages/jobs";
-import PostJob from "./pages/postJobs";
-import About from "./pages/about";
-import Login from "./pages/login";
-import Error from "./pages/errors";
+import Home from "./pages/home.js";
+import Jobs from "./pages/jobs.js";
+import PostJob from "./pages/postJobs.js";
+import About from "./pages/about.js";
+import Login from "./pages/login.js";
+import Error from "./components/errors.js";
 import { useState } from "react";
 
 function App() {
